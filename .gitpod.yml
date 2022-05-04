@@ -5,6 +5,7 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-preview
+    visibility: public
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
@@ -22,3 +23,7 @@ github:
     # add a "Review in Gitpod" button to the pull request's description (defaults to false)
     addBadge: true
 
+vscode:
+  extensions:
+    - octref.vetur
+    - antfu.unocss

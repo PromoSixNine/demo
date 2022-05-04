@@ -7,6 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "@iconify/json": "^2.1.35",
+    "@prisma/client": "^3.13.0",
+    "@unocss/nuxt": "^0.32.12",
+    "nuxt": "3.0.0-rc.1",
+    "prisma": "^3.13.0"
   }
 }
