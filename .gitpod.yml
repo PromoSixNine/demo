@@ -6,6 +6,9 @@ ports:
   - port: 3000
     onOpen: open-preview
     visibility: public
+  - port: 24678
+    onOpen: ignore
+    visibility: public
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
