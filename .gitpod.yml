@@ -4,9 +4,11 @@ tasks:
     command: npm run dev
 ports:
   - port: 3000
+    name: http
     onOpen: open-preview
     visibility: public
-  - port: 24678
+  - port: 3100
+    name: ws
     onOpen: ignore
     visibility: public
 github:

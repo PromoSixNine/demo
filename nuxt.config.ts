@@ -10,6 +10,8 @@ export default defineNuxtConfig({
             hmr: {
                 protocol: 'wss',
                 timeout: 1,
+                port: 3100,
+                clientPort: 3100,
             },
         },
 
